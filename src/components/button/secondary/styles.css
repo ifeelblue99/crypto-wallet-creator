@@ -1,0 +1,21 @@
+.secondary-btn {
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: var(--third-clr);
+    width: 300px;
+    align-self: center;
+    padding: .5rem;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 350ms linear;
+    font-weight: bold;
+    border: 3px solid black;
+}
+.secondary-btn:hover {
+    background-color: var(--third-clr);
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px, rgba(0, 0, 0, 0.5) 0px 7px 13px -3px, rgba(0, 0, 0, 0.4) 0px -4px 0px inset;
+}
+.secondary-btn:active {
+    transform: scale(.95);
+}

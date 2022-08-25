@@ -1,0 +1,41 @@
+.dashboard {
+    border-radius: 5px;
+    padding: .5rem;
+    background-color: var(--secondary-clr);
+    align-self: flex-start;
+    width: 320px;
+}
+.dashboard div {
+    flex-direction: column;
+    display: flex;
+    width: 300px;
+    overflow-x: auto;
+    padding: .2rem 0;
+}
+.dashboard div::-webkit-scrollbar {
+    background-color: var(--main-clr);
+    height: 5px;
+    border-radius: 10px;
+}
+.dashboard div::-webkit-scrollbar-thumb {
+    background-color:  rgb(103, 130, 151);
+    border-radius: 10px;
+}
+
+
+.dashboard div span:nth-child(1) {
+    color: white;
+}
+.dashboard div span:nth-child(2) {
+    margin-left: .5rem;
+    font-size: 1.05rem;
+}
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.dashboard h3 {
+    margin: 0;
+    align-self: center;
+}

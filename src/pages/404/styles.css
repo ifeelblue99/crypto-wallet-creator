@@ -1,0 +1,14 @@
+.fourofour-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25vh;
+    text-align: center;
+    gap: 1.2rem;
+    color: var(--third-clr);
+}
+.fourofour-page span {
+    filter: brightness(1.5);
+    font-size: 3rem;
+    margin: .5rem;
+}

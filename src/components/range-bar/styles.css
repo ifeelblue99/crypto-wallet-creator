@@ -1,0 +1,35 @@
+#rangeValue {
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: 6em;
+  font-weight: 400;
+}
+.range {
+  width: 100%;
+  max-width: 400px;
+  height: 20px;
+  -webkit-appearance: none;
+  background: rgb(0, 0, 0);
+  outline: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.5) 0px 7px 13px -3px, rgba(102, 102, 102, 0.2) 0px -3px 0px inset;
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+  border: 5px solid var(--secondary-clr);
+  box-shadow: -407px 0 0 400px var(--third-clr);
+}
+.range-holder {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}

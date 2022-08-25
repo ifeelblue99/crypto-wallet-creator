@@ -1,0 +1,17 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .8rem;
+    padding: 13vh 1rem 1rem 1rem;
+}
+
+#loader-error-mesage {
+    align-self: center;
+    width: 300px;
+    border: none;
+    border-radius: 7px;
+    padding: .3rem;
+    color: #D8000C;
+    background-color: #FFBABA;
+}

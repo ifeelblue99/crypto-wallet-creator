@@ -1,0 +1,36 @@
+#header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: steelblue;
+    font-size: 1.5rem;
+    background-color: var(--secondary-clr);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset}
+
+#header h3 {
+    margin: 1rem .5rem;
+}
+#go-home-button,
+#header a {
+    transition: 250ms linear;
+    color: steelblue;
+}
+#go-home-button,
+#header a:hover{
+    filter: brightness(1.6);
+}
+
+#go-home-button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+}
+#go-home-button:hover {
+    transform: scale(1.05);
+    }
