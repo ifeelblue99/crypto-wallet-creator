@@ -11,7 +11,7 @@ function Header({ title, link, linkName }) {
       return setShowHomeBtn("visible")
     }
     setShowHomeBtn("hidden")  
-  },[])
+  },[showHomeBtn])
 
 
   return (
